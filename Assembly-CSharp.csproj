@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7501536E-8548-42C7-30F4-D889A96B7684}</ProjectGuid>
+    <ProjectGuid>{539A5AA7-A511-2E39-7F40-638B682469EB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,6 +66,7 @@
     <Compile Include="Assets\2D Platformer\Scripts\DestroyerScript.cs" />
     <Compile Include="Assets\2D Platformer\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\ControleCamera.cs" />
+    <Compile Include="Assets\2D Platformer\Scripts\Parallax.cs" />
     <Compile Include="Assets\2D Platformer\Scripts\BackgroundRepeater.cs" />
     <Compile Include="Assets\2D Platformer\Scripts\EnemyAI.cs" />
     <Compile Include="Assets\Free Pixel Art Hills\Demo\MoveBackground.cs" />
