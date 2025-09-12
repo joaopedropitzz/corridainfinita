@@ -20,7 +20,9 @@ public class Parallax : MonoBehaviour
         {
             Vector3 newPos = transform.position;
             newPos.x += parallaxSpeed * deltaCamera;
+            transform.position = newPos;
         }
+        Xant = cameraTransform.position.x;  
     }
     
 }
