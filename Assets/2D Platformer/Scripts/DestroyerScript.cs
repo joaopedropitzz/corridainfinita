@@ -9,11 +9,11 @@ public class DestroyerScript : MonoBehaviour
     private void Start()
     {
         GameOver.gameObject.SetActive(false);
-        Time.timeScale = 1;
+        
         
     }
 
-    void OnTriggerEnter2D(Collider2D outro)
+    void OnTriggerEnter2D(Collider2D outro) 
     {
         if(outro.gameObject.tag == "Player")
         {
